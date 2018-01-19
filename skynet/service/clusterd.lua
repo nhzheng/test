@@ -48,6 +48,7 @@ local function loadconfig()
 end
 
 function command.reload()
+	print("command.reload()")
 	loadconfig()
 	skynet.ret(skynet.pack(nil))
 end
