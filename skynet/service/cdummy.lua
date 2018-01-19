@@ -58,6 +58,7 @@ function harbor.QUERYNAME(name)
 end
 
 function harbor.LINK(id)
+	print("arbor.LINK", id)
 	skynet.ret()
 end
 
