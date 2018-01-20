@@ -32,6 +32,8 @@ stm_newcopy(void * msg, int32_t sz) {
 	return copy;
 }
 
+
+
 static struct stm_object *
 stm_new(void * msg, int32_t sz) {
 	struct stm_object * obj = skynet_malloc(sizeof(*obj));
