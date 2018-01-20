@@ -16,6 +16,9 @@ to
 	void SHA1Update(SHA1_CTX* context, unsigned	char* data,	unsigned
 long len)
 
+
+
+
 The	'len' parameter	was	declared an	int	which works	fine on	32 bit machines.
 However, on	16 bit machines	an int is too small	for	the	shifts being done
 against
