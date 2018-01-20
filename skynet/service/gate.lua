@@ -93,4 +93,6 @@ function handler.command(cmd, source, ...)
 	return f(source, ...)
 end
 
+
+
 gateserver.start(handler)
